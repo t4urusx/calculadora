@@ -1,0 +1,30 @@
+conta = input("Digite a conta (ex: 25*8): ")
+
+if "+" in conta:
+    operador = "+"
+elif "-" in conta:
+    operador = "-"
+elif "*" in conta:
+    operador = "*"
+elif "/" in conta:
+    operador = "/"
+else:
+    print("Operação inválida!")
+    exit()
+
+numero1 = float(partes[0])
+numero2 = float(partes[1])
+
+if operador == "+":
+    resultado = numero1 + numero2
+
+elif operador == "-":
+    resultado = numero1 - numero2
+
+elif operador == "*":
+    resultado = numero1 * numero2
+
+elif operador == "/":
+    resultado = numero1 / numero2
+
+print("Resultado:", resultado)
