@@ -12,6 +12,8 @@ else:
     print("Operação inválida!")
     exit()
 
+partes = conta.split(operador)
+
 numero1 = float(partes[0])
 numero2 = float(partes[1])
 
